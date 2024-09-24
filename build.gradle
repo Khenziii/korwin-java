@@ -1,12 +1,22 @@
 plugins {
     id "java"
+    id "maven-publish"
 }
 
 group "dev.khenzii"
 version "0.0.1"
 
-repositories {
-    mavenCentral()
+publishing {
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = "https://maven.pkg.github.com/khenziii/korwin-java"
+            credentials {
+                username = "khenziii"
+                password = System.getenv("TOKEN_GITHUB")
+            }
+        }
+    }
 }
 
 java {
