@@ -27,4 +27,6 @@ jobs:
 
       - name: Publish
         run: gradle publish
+        env:
+          TOKEN_GITHUB: ${{ secrets.TOKEN_GITHUB }}
 
