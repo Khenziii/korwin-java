@@ -1,3 +1,5 @@
+package dev.khenzii;
+
 public class data {
     public static final String[][] KORWIN_QUOTES = {
         {
