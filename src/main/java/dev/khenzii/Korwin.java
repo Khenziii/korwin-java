@@ -8,7 +8,7 @@ public class Korwin {
         ArrayList<String> quote = new ArrayList<>();
         Random numberGenerator = new Random();
         
-        for (String[] quotes : data.KORWIN_QUOTES) {
+        for (String[] quotes : Data.KORWIN_QUOTES) {
             int randomIndex = numberGenerator.nextInt(quotes.length);
             String randomQuote = quotes[randomIndex];
 
