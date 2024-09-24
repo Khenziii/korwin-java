@@ -7,6 +7,29 @@ group "dev.khenzii"
 version "0.0.1"
 
 publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+            pom {
+                name = "korwin"
+                description = "A simple library handling generation of Korwin quotes"
+                url = "https://github.com/khenziii/korwin-java"
+                licenses {
+                    license {
+                        name = "MIT"
+                        url = "https://github.com/khenziii/korwin-java/blob/master/LICENSE"
+                    }
+                }
+                developers {
+                    developer {
+                        id = "khenziii"
+                        email = "khenzii.was.taken@gmail.com"
+                    }
+                }
+            }
+        }
+    }
+
     repositories {
         maven {
             name = "GitHubPackages"
