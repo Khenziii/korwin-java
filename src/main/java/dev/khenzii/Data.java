@@ -1,6 +1,6 @@
 package dev.khenzii;
 
-public class data {
+public class Data {
     public static final String[][] KORWIN_QUOTES = {
         {
             "Proszę zwrócić uwagę, że",
