@@ -20,7 +20,7 @@ repositories {
 }
 
 dependencies {
-    implementation "dev.khenzii:korwin-java:0.0.3"
+    implementation "dev.khenzii:korwin-java:1.0.0"
 }
 ```
 
@@ -42,7 +42,7 @@ dependencies {
     <dependency>
         <groupId>dev.khenzii</groupId>
         <artifactId>korwin-java</artifactId>
-        <version>0.0.3</version>
+        <version>1.0.0</version>
     </dependency>
 </dependencies>
 ```
@@ -71,8 +71,8 @@ To generate a PAT with necessary permissions, follow these steps:
 
 1. Go to [github.com/settings/tokens](https://github.com/settings/tokens)
 3. Click "Generate new token" 
-3. Select the "classic" token type 
-4. Grant permission `read:packages`
+3. Select "classic" token type 
+4. Grant the `read:packages` permission
 
 ## Usage
 
