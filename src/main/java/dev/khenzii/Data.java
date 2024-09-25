@@ -1,7 +1,7 @@
 package dev.khenzii;
 
-public class Data {
-    public static final String[][] KORWIN_QUOTES = {
+class Data {
+    static final String[][] KORWIN_QUOTES = {
         {
             "Proszę zwrócić uwagę, że",
             "I tak mam trzy razy mniej czasu, więc prosze pozwolić mi powiedzieć:",
